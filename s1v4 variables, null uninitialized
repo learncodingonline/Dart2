@@ -1,0 +1,24 @@
+void main() {
+  var firstName = "Saurav"; // Var is a Data type
+  var lastName = "Gupta";
+  // The variable called firstName and lastName contains
+  // a reference to a String object with a value of “Saurav” and "Gupta"
+  // respectivelly.
+
+  /*The type of the firstName and lastName variable is inferred to be
+  String, but you can change that type by specifying it.
+  */
+
+  String firstName1 = "Saurav"; // String is a Data type
+  String lastName2 = "Gupta";
+
+  /*Default value - Null */
+
+  print(firstName); // will give Saurav as output , since intialized.
+  print(lastName);
+
+  var unknown ; // will give NULL as unknown is not intialized.
+  print(unknown);
+
+
+}
