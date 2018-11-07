@@ -1,0 +1,17 @@
+void main() {
+  print("Welcome to the world of Dart by masteringflutter.com");
+  print(" ");
+  print("This is first code in Dart language");
+}
+
+/*
+Points to be taken care of:
+1) void is a return type
+2) main() is a function / method ...that you will get used to later in
+this course
+3) "p" for print should be small and Since we are printing String
+(ie: Text) so, it should be within double quotation.
+4) Print statement should end with semicolon ;
+5) After writing your program, click on the Run button.
+
+*/
