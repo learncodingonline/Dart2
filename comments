@@ -1,0 +1,21 @@
+void main() {
+  // my first Dart code line
+  print("Welcome to the world of Dart by masteringflutter.com");
+  // Leaving one blank line
+  print(" ");
+  // My second Dart code line
+  print("This is first code in Dart language");
+  // Leaving one blank line
+  print(" ");
+  // printing numeric number 4
+  print(4);
+  ///Leaving one blank line
+  ///
+  print(" ");
+  // performing mathematical operation 5-1 for getting answer 4
+  print(5-1);
+  // Leaving one blank line
+  print(" ");
+  // performing boolean operation in print
+  print(true);
+}
