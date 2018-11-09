@@ -1,0 +1,26 @@
+void main() {
+// Make sure the variable has a non-null value.
+//  assert(text != null);
+
+// Make sure the value is less than 100.
+//  assert(number < 100);
+
+// Make sure this is an https URL.
+//  assert(urlString.startsWith('https'));
+
+  // To attach a message to an assert,
+  // add a string as the second argument.
+
+//  var urlString = "https://www.masteringflutter.com";
+ var urlString = "http://www.masteringflutter.com";
+
+  assert(urlString.startsWith('https'),
+  'URL ($urlString) should start with "https".');
+
+  /* The first argument to assert can be any expression
+  that resolves to a boolean value. If the expression’s
+  value is true, the assertion succeeds and execution
+   continues. If it’s false, the assertion fails and an
+   exception (an AssertionError) is thrown.
+   */
+}
