@@ -1,0 +1,95 @@
+void main() {
+  var gifts = {
+    // Key:    Value
+    "first": "cap",
+    "second": "shirt",
+    "fifth": "Bathing suit",
+    "Sixth": "socks"
+
+  };
+
+  /*
+  even it is fine to write all in a single line, provided
+  you have correctly placed comma,
+   */
+
+  var nobleGases = {
+    2: 'helium',
+    10: 'neon',
+    18: 'argon',
+    36: 'krypton'
+  };
+
+  print(gifts); // printing all gifts Map
+  print(nobleGases); // printing all noblegases Map
+  print(gifts.keys);
+  print(gifts.values);
+  print("first gift is ${gifts["first"]}");
+  print("second gift is ${gifts["second"]}");
+  print(nobleGases[2]);
+  print("noble gas with atmomic number 2 is ${nobleGases[2]}");
+
+  /*
+  Note: The analyzer infers that gifts has the type
+  Map<String, String> and nobleGases has the type Map<int,
+  String>.
+  If you try to add the wrong type of value to either map,
+  the analyzer or runtime raises an error.
+   */
+
+  // You can create the same objects using a Map constructor:
+
+  var giftsx = Map();
+  giftsx['first'] = 'partridge';
+  giftsx['second'] = 'turtledoves';
+  giftsx['fifth'] = 'golden rings';
+
+  var nobleGasesx = Map();
+  nobleGasesx[2] = 'helium';
+  nobleGasesx[10] = 'neon';
+  nobleGasesx[18] = 'argon';
+
+  /*
+  Note: You might expect to see new Map() instead of just
+  Map(). As of Dart 2, the new keyword is optional
+   */
+
+  // Add a new key-value pair to an existing map just as you would in JavaScript:
+
+/* --> Add a new key-value pair to an existing map
+just as you would in JavaScript: */
+
+//  var gifts = {'first': 'partridge'};
+//  gifts['fourth'] = 'calling birds'; // Add a key-value pair
+
+  /*Retrieve a value from a map the same way you
+  would in JavaScript:*/
+//  var gifts = {'first': 'partridge'};
+//  assert(gifts['first'] == 'partridge');
+
+  /*If you look for a key that isn’t in a map,
+   you get a null in return:*/
+
+//  var gifts = {'first': 'partridge'};
+//  assert(gifts['fifth'] == null);
+
+  /*Use .length to get the number of key-value
+  pairs in the map:*/
+
+//  var gifts = {'first': 'partridge'};
+//  gifts['fourth'] = 'calling birds';
+//  assert(gifts.length == 2);
+
+  /*To create a map that’s a compile-time constant,
+  add const before the map literal:*/
+
+//  final constantMap = const {
+//    2: 'helium',
+//    10: 'neon',
+//    18: 'argon',
+//  };
+
+// constantMap[2] = 'Helium';
+// Uncommenting this causes an error.
+
+}
