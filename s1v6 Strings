@@ -1,0 +1,30 @@
+void main() {
+
+  String name = "Saurav Gupta";
+  print(name);
+
+  // get a substring
+
+  String firstName = name.substring(0,6);
+  print("firstName = ${firstName}");
+
+  // get the index of a String
+
+  int index = name.indexOf(" ");
+  String lastName = name.substring(index).trim();
+  print("lastName = ${lastName}");
+
+  //length
+
+  print(name.length);
+
+  // contains
+  print(name.contains("rav"));
+
+  // create a list
+
+  List parts = name.split(" ");
+  print(parts);
+
+
+}
