@@ -5,4 +5,17 @@ void main() {
 // Sort a list.
   fruits.sort((a, b) => a.compareTo(b));
   print("sorted list of fruits \r\n ${fruits}");
+
+// This list should contain only strings.
+// parameterized list
+  var fruitsx = List<String>();
+
+  fruitsx.add('apples');
+  // var fruitvar = fruits[0];
+  // assert(fruitvar is String);
+  print("fruitsx list ${fruitsx}");
+
+
+  // fruitsx.add(5);
+  // Error: 'int' can't be assigned to 'String'
 }
