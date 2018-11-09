@@ -26,5 +26,10 @@ void main() {
   List parts = name.split(" ");
   print(parts);
 
+  // printing individual parts of lists
+
+  print(parts[0]);
+  print(parts[1]);
+
 
 }
