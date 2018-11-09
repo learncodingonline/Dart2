@@ -1,0 +1,8 @@
+void main() {
+  var fruits = ['bananas', 'apples', 'oranges'];
+  print("unsorted list of fruits \r\n ${fruits}");
+
+// Sort a list.
+  fruits.sort((a, b) => a.compareTo(b));
+  print("sorted list of fruits \r\n ${fruits}");
+}
