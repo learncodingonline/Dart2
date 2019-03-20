@@ -1,0 +1,12 @@
+void main() {
+
+  int age = 24;
+  var age = 24;  // replaced Data type "int" with Var for automatic assumption
+
+  String name = "Saurav";
+  var name = "Saurav"; // replaced Data type "String" with Var for automatic assumption
+
+  bool isAvailable = true;
+  var isAvailable = true; // replaced Data type "bool" with Var for automatic assumption
+  
+}
