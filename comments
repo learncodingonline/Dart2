@@ -1,6 +1,9 @@
 void main() {
   // my first Dart code line
   print("Welcome to the world of Dart by masteringflutter.com");
+  /* String is always written in closed quotations and
+  - Statement always ends with semicolon ; */
+  
   // Leaving one blank line
   print(" ");
   // My second Dart code line
