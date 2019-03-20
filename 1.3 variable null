@@ -1,0 +1,49 @@
+void main() {
+
+  // Numbers : int
+  int age = 24;
+  var DOB = 1990; // gets inferred automatically that it is integer
+  int hexValue = 0xABCDE678; // before writing hex values we start it with 0x
+
+  print(age);
+  print(DOB);
+  print(hexValue);
+  print(" ");
+
+  // Numbers: double
+  double tenthpercentage = 83.7;
+  var twelfthpercentage = 81.80;
+  double exponents = 1.425e5;
+
+  print(tenthpercentage);
+  print(twelfthpercentage);
+  print(exponents);
+  print(" ");
+
+  // Strings
+  String name = "Saurav";
+  var company = "MasteringFlutter.com";
+
+  print(name);
+  print(company);
+  print(" ");
+
+  // boolean
+  bool isValid = true;
+  var isAvailable = false;
+
+  print(isValid);
+  print(isAvailable);
+  print("End of Programming");
+
+  // Note All data types in Dart are objects.
+  // Therefore, their initial value is by Default "null"
+  // verify it by taking off Name "Saurav" and bool true and test it your self;
+
+
+
+
+
+
+
+}
