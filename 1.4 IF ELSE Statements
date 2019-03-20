@@ -1,0 +1,16 @@
+// IF ELSE Statements
+
+/* Here we will assume that
+  passing marks >=  50
+*/
+
+void main() {
+  
+  var marks = 45;
+
+  if(marks >= 50) {
+    print("Passed");
+  } else {
+    print("You Need to work Hard Man");
+  }
+}
