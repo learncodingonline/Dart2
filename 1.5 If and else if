@@ -1,0 +1,20 @@
+// IF ELSE Statements
+
+/* Here we will assume that if marks ranges
+between >= 90 && < 100 equals A Grade
+between >= 80 && < 90 equals B Grade
+between >= 70 && < 80 equals C Grade
+between >= 50 && < 70 equals Average Student
+between < 50 equals Failed Student
+*/
+
+void main() {
+
+  var marks = 45;
+
+  if(marks >= 50) {
+    print("Passed");
+  } else {
+    print("You Need to work Hard Man");
+  }
+}
